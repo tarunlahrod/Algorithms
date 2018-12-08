@@ -1,5 +1,5 @@
 /*
-								BALANCED PARENTHESES IN AN EXPRESSION
+						BALANCED PARENTHESES IN AN EXPRESSION
 To check the balance we take the expression consist of '(', '{', '[', ')', ']', '}' and other expression.
 Our motive is to check the balance of these parenthese only and not the correctness of the expression.
 
