@@ -11,3 +11,4 @@
 ####  9. Selection sort
 ####  10. Bubble sort
 ####  11. Check for balanced parenthese
+####  12. Quick sort
