@@ -4,19 +4,12 @@ using namespace std;
 int stringToInt(char *a, int n){
 	if(n==0)
 		return 0;
-	int chotaAns = stringToInt(a, n-1);
-	cout<<chotaAns<<endl;
-	return chotaAns*10 + a[n];
+	return stringToInt(a, n-1)*10 + (a[n-1]-48); 		// -48 because the ASCII value of 0 is 48
 }
 
 int main(){
 	char a[] = "1234";
-	int n = sizeof(a)/sizeof(int);
+	int n = sizeof(a)/sizeof(char) - 1;
 	int num = stringToInt(a, n);
 	cout<<num<<endl;
 }
-
-
-// for(int i=0; i<n; i++){
-// 	sum = 10*sum + a[i];
-// }
