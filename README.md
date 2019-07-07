@@ -16,3 +16,5 @@
 #### 1. Fibonacci with Memorization
 #### 2. Subsequences of a string
 #### 3. Permutations of a string
+#### 4. Rat in a Maze 
+#### 5. N queen problem
