@@ -12,3 +12,7 @@
 ####  10. Bubble sort
 ####  11. Check for balanced parenthese
 ####  12. Quick sort
+# Recursion
+#### 1. Fibonacci with Memorization
+#### 2. Subsequences of a string
+#### 3. Permutations of a string
