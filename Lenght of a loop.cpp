@@ -4,7 +4,7 @@
 using namespace std;
 
 //basic node element structure with 1. Data and, 
-//									2. Pointer to store the address of the next node.
+//2. Pointer to store the address of the next node.
 
 struct node
 {
@@ -45,8 +45,6 @@ void printMe(node *temp)
 	printMe(temp->next);
 }
 
-
-
 /*
 Function name: detectloop()
 Input:	Pointer to the first node
@@ -73,8 +71,6 @@ node* detectloop(node *head)
 	//while loop terminated means there is no loop in the linked list.
 	return 0; 
 }
-
-
 
 /*
 Function name: looplength()
