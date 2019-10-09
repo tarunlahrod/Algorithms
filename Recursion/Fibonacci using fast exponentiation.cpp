@@ -37,8 +37,10 @@ ull fib(ull n){
 }
 
 int main(){
-	int n;
-	n = fib(10);
-	cout<<n<<"\n";
+	ull n;
+	cout<<"Enter the value of n to find the value of nth fibonacci number in log(n) time "<<endl;
+	cin>>n;
+	ull ans = fib(n);
+	cout<<ans<<"\n";
 	return 0;
 }
