@@ -11,7 +11,7 @@
   9. Selection sort
   10. Bubble sort
   11. Check for balanced parenthese
-  12. Quick sort
+  12. Quick Sort
 # Recursion
  1. Fibonacci with Memorization
  2. Subsequences of a string
