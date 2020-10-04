@@ -28,7 +28,7 @@ void insertionSort(int a[], int size)
 int main()
 {
 	int size = 25;
-	int b[] = {2,5,6,9,7,4,3,1,8,12,45,78,89,56,23,45,78,45,56,89,4,8,213,23,1};
-	insertionSort(b,size);
-	printMe(b,size);
+	int a[] = {2,5,6,9,7,4,3,1,69,12,45,78,89,56,23,45,78,45,56,89,4,8,213,23,1};
+	insertionSort(a,size);
+	printMe(a,size);
 }
